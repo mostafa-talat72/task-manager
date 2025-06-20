@@ -1,0 +1,12 @@
+.status-label::after {
+	content: "Pending";
+	padding-left: 5px;
+	color: #333;
+	font-weight: bold;
+}
+
+.task-status-toggle:checked+.status-label::after {
+	content: "Completed";
+	color: green;
+
+}
