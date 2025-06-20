@@ -1,7 +1,7 @@
 <?php
 
-include_once '../Database.class.php';
-include_once '../Task.class.php';
+include_once '../classes/Database.class.php';
+include_once '../classes/Task.class.php';
 
 try {
 	$db = (new Database())->getConnection();
