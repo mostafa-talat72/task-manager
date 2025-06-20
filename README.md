@@ -45,7 +45,6 @@ CREATE TABLE tasks (
 username: root
 password: (empty)
 database: task_manager
-Change them if your local MySQL uses a password.
 ```
 - Change them if your local MySQL uses a password.
 
